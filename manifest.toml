@@ -16,7 +16,7 @@ license = "free"
 website = "https://logdy.dev/"
 demo = "https://demo.logdy.dev/"
 admindoc = "https://logdy.dev/docs/quick-start"
-code = "https://some.forge.com/example/example"
+code = "https://github.com/logdyhq/logdy-core"
 
 [integration]
 yunohost = ">= 11.2.30"
