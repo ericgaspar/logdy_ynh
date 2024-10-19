@@ -33,6 +33,8 @@ ynh_config_add_nginx
 
 ynh_config_add_systemd
 
+yunohost service add "$app" --description="Web based real-time log viewer" --log="/var/log/$app/$app.log"
+
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
